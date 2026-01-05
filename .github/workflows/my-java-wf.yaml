@@ -1,7 +1,6 @@
 name: my-java-wf
 
-on:
-  push
+on: push
 
 jobs:
   build-test-package:
@@ -13,7 +12,7 @@ jobs:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin' //for the eclipse to store the binaries
+          distribution: 'temurin' 
           java-version: '17'
           cache: maven
       - name: Build with Maven
