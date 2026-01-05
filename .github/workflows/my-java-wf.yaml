@@ -1,4 +1,4 @@
-name: my-java-workflow
+name: my-java-wf
 
 on:
   push
