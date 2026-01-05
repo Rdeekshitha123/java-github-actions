@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: App
-          path: target/*.jar
+          path: App.jar
